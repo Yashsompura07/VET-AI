@@ -41,3 +41,7 @@ desktop.ini
 .idea/
 *.swp
 *.swo
+
+# Project Documentation (Local Only)
+PROJECT_REPORT.md
+PROJECT_FACULTY_PRESENTATION.md
