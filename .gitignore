@@ -1,0 +1,43 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Pytest & Testing Cache
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Databases & Runtime State
+vetai.db
+*.db
+*.sqlite3
+.vetai_key
+*.key
+
+# Temporary artifacts & scratch files
+temp_*
+*.tmp
+scratch/
+**/scratch/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo

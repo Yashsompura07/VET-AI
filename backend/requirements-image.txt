@@ -1,0 +1,7 @@
+# Extra dependencies needed ONLY for photo detection (the image model).
+# The symptom app runs without these. Install these if you want the "By photo"
+# tab to work on your own machine:  pip install -r requirements-image.txt
+#
+# Requires Python 3.10-3.13. Check yours with:  python --version
+tensorflow
+pillow

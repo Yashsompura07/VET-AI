@@ -1,0 +1,670 @@
+{
+  "symptoms": [
+    {
+      "id": "fever",
+      "label": "Fever / high body temperature"
+    },
+    {
+      "id": "loss_of_appetite",
+      "label": "Not eating / reduced appetite"
+    },
+    {
+      "id": "milk_reduction",
+      "label": "Drop in milk production"
+    },
+    {
+      "id": "diarrhea",
+      "label": "Diarrhea / loose stool"
+    },
+    {
+      "id": "mouth_lesions",
+      "label": "Blisters or ulcers in the mouth"
+    },
+    {
+      "id": "salivation",
+      "label": "Excessive drooling / salivation"
+    },
+    {
+      "id": "hoof_lesions",
+      "label": "Blisters or wounds on the hoof"
+    },
+    {
+      "id": "lameness",
+      "label": "Limping / difficulty walking"
+    },
+    {
+      "id": "skin_nodules",
+      "label": "Firm lumps / nodules on the skin"
+    },
+    {
+      "id": "skin_lesions",
+      "label": "Skin wounds / sores"
+    },
+    {
+      "id": "swollen_lymph_nodes",
+      "label": "Swollen glands (lymph nodes)"
+    },
+    {
+      "id": "cough",
+      "label": "Coughing"
+    },
+    {
+      "id": "nasal_discharge",
+      "label": "Runny nose / nasal discharge"
+    },
+    {
+      "id": "difficulty_breathing",
+      "label": "Difficulty breathing"
+    },
+    {
+      "id": "rapid_breathing",
+      "label": "Fast / heavy breathing"
+    },
+    {
+      "id": "bloating",
+      "label": "Swollen / bloated belly"
+    },
+    {
+      "id": "reduced_rumination",
+      "label": "Reduced chewing of cud (rumination)"
+    },
+    {
+      "id": "udder_swelling",
+      "label": "Swollen, hot or painful udder"
+    },
+    {
+      "id": "weight_loss",
+      "label": "Weight loss / poor body condition"
+    },
+    {
+      "id": "dehydration",
+      "label": "Dehydration (sunken eyes, dry nose)"
+    },
+    {
+      "id": "weakness",
+      "label": "Weakness / lethargy / unable to stand"
+    },
+    {
+      "id": "nervous_signs",
+      "label": "Trembling, twitching or staggering"
+    },
+    {
+      "id": "chronic_cough",
+      "label": "Long-lasting (chronic) cough"
+    },
+    {
+      "id": "joint_swelling",
+      "label": "Swollen or painful joints"
+    },
+    {
+      "id": "wasting",
+      "label": "Gradual wasting despite eating"
+    },
+    {
+      "id": "mouth_ulcers",
+      "label": "Ulcers on the tongue or gums"
+    },
+    {
+      "id": "abortion",
+      "label": "Abortion / pregnancy loss"
+    },
+    {
+      "id": "incoordination",
+      "label": "Loss of coordination / stumbling"
+    },
+    {
+      "id": "wool_loss",
+      "label": "Wool or hair loss / rubbing"
+    }
+  ],
+  "diseases": [
+    {
+      "id": "fmd",
+      "name": "Foot and Mouth Disease (FMD)",
+      "animals": [
+        "cow",
+        "buffalo",
+        "goat",
+        "sheep"
+      ],
+      "risk_level": "high",
+      "key_symptoms": [
+        "fever",
+        "mouth_lesions",
+        "salivation",
+        "hoof_lesions",
+        "lameness",
+        "loss_of_appetite",
+        "milk_reduction"
+      ],
+      "definition": "A highly contagious viral disease of cloven-hoofed animals causing blisters in the mouth and on the feet.",
+      "causes": "Foot-and-mouth disease virus (an Aphthovirus), spread very easily between animals.",
+      "transmission": "Direct contact, contaminated feed, water, equipment, vehicles, and airborne spread over short distances.",
+      "prevention": "Regular vaccination, quarantine of new animals, strict farm hygiene and movement control during outbreaks.",
+      "treatment_overview": "Supportive care only; there is no specific cure. Soft feed, wound care and rest help recovery. Antibiotics are sometimes used by a vet to prevent secondary infection.",
+      "diet": "Soft, palatable feed (green fodder, gruel), plenty of clean water, avoid rough dry fodder while mouth lesions heal.",
+      "supportive_care": "Isolate the animal, clean mouth and foot lesions with mild antiseptic as advised, keep bedding soft and dry.",
+      "recovery_time": "Usually 2–3 weeks in uncomplicated cases.",
+      "vaccination": "Vaccinate every 6 months in endemic regions.",
+      "vitals": {
+        "temp_c": [
+          39.5,
+          41.0
+        ],
+        "hr_bpm": [
+          80,
+          105
+        ]
+      }
+    },
+    {
+      "id": "lsd",
+      "name": "Lumpy Skin Disease (LSD)",
+      "animals": [
+        "cow",
+        "buffalo"
+      ],
+      "risk_level": "high",
+      "key_symptoms": [
+        "fever",
+        "skin_nodules",
+        "skin_lesions",
+        "swollen_lymph_nodes",
+        "loss_of_appetite",
+        "milk_reduction",
+        "nasal_discharge"
+      ],
+      "definition": "A viral disease of cattle causing firm nodules across the skin, fever and reduced production.",
+      "causes": "Lumpy skin disease virus (a Capripoxvirus).",
+      "transmission": "Mainly by biting insects (mosquitoes, flies, ticks); also contaminated equipment.",
+      "prevention": "Vaccination, insect control, isolation of affected animals.",
+      "treatment_overview": "No specific antiviral treatment. Supportive care and wound management; a vet may treat secondary bacterial infection.",
+      "diet": "Good-quality green fodder, protein feed, clean water, mineral and vitamin support to aid recovery.",
+      "supportive_care": "Clean skin lesions, control flies, provide shade and rest, isolate from the herd.",
+      "recovery_time": "Several weeks; severe cases longer.",
+      "vaccination": "Annual vaccination in at-risk areas.",
+      "vitals": {
+        "temp_c": [
+          39.5,
+          41.0
+        ],
+        "hr_bpm": [
+          78,
+          100
+        ]
+      }
+    },
+    {
+      "id": "mastitis",
+      "name": "Mastitis",
+      "animals": [
+        "cow",
+        "buffalo",
+        "goat"
+      ],
+      "risk_level": "medium",
+      "key_symptoms": [
+        "udder_swelling",
+        "milk_reduction",
+        "fever",
+        "loss_of_appetite",
+        "reduced_rumination"
+      ],
+      "definition": "Inflammation of the udder, usually from bacterial infection, affecting milk quality and yield.",
+      "causes": "Bacteria entering the teat canal, often linked to poor milking hygiene.",
+      "transmission": "Environmental and contagious bacteria spread during milking and through contaminated bedding.",
+      "prevention": "Clean milking practice, teat dipping, dry-cow management, clean dry bedding.",
+      "treatment_overview": "Veterinary treatment of the infection and frequent complete milking. Consult a vet before any medication.",
+      "diet": "Balanced ration, green fodder, clean water, adequate energy and minerals.",
+      "supportive_care": "Frequent gentle milking of the affected quarter, keep the udder clean, apply warm compress if advised.",
+      "recovery_time": "Days to weeks depending on severity.",
+      "vaccination": "Some vaccines exist; hygiene is the main control.",
+      "vitals": {
+        "temp_c": [
+          39.4,
+          41.0
+        ],
+        "hr_bpm": [
+          80,
+          105
+        ]
+      }
+    },
+    {
+      "id": "brd",
+      "name": "Bovine Respiratory Disease (BRD)",
+      "animals": [
+        "cow",
+        "buffalo"
+      ],
+      "risk_level": "medium",
+      "key_symptoms": [
+        "cough",
+        "nasal_discharge",
+        "fever",
+        "difficulty_breathing",
+        "rapid_breathing",
+        "loss_of_appetite"
+      ],
+      "definition": "A complex of respiratory infections causing coughing, fever and breathing difficulty, common after stress or transport.",
+      "causes": "A mix of viruses and bacteria, often triggered by stress, crowding or cold weather.",
+      "transmission": "Airborne droplets and close contact.",
+      "prevention": "Reduce stress and crowding, good ventilation, vaccination, gradual weaning/transport.",
+      "treatment_overview": "Prompt veterinary treatment. Early care improves outcomes; consult a vet for any medication.",
+      "diet": "Palatable feed, clean water, avoid dusty feed, keep the animal warm and rested.",
+      "supportive_care": "Good ventilation, dry warm shelter, isolate sick animals, reduce handling stress.",
+      "recovery_time": "1–2 weeks if treated early.",
+      "vaccination": "Vaccinate against common respiratory pathogens.",
+      "vitals": {
+        "temp_c": [
+          39.5,
+          41.2
+        ],
+        "hr_bpm": [
+          85,
+          115
+        ]
+      }
+    },
+    {
+      "id": "bloat",
+      "name": "Bloat",
+      "animals": [
+        "cow",
+        "buffalo",
+        "goat",
+        "sheep"
+      ],
+      "risk_level": "high",
+      "key_symptoms": [
+        "bloating",
+        "difficulty_breathing",
+        "reduced_rumination",
+        "loss_of_appetite",
+        "weakness"
+      ],
+      "definition": "A dangerous build-up of gas in the rumen causing a swollen left flank and breathing distress.",
+      "causes": "Sudden access to lush legume pasture or grain, or a blockage preventing gas release.",
+      "transmission": "Not infectious; a digestive emergency.",
+      "prevention": "Introduce rich feed gradually, avoid grazing wet legume pasture on an empty stomach.",
+      "treatment_overview": "An emergency — contact a veterinarian immediately. Rapid intervention can be life-saving.",
+      "diet": "After recovery, reintroduce feed slowly with plenty of fibrous fodder.",
+      "supportive_care": "Keep the animal moving and standing, contact a vet without delay.",
+      "recovery_time": "Rapid if treated in time; can be fatal within hours if not.",
+      "vaccination": "None; management-based prevention.",
+      "vitals": {
+        "temp_c": [
+          38.0,
+          39.4
+        ],
+        "hr_bpm": [
+          95,
+          130
+        ]
+      }
+    },
+    {
+      "id": "hs",
+      "name": "Haemorrhagic Septicaemia (HS)",
+      "animals": [
+        "cow",
+        "buffalo"
+      ],
+      "risk_level": "high",
+      "key_symptoms": [
+        "fever",
+        "difficulty_breathing",
+        "salivation",
+        "swollen_lymph_nodes",
+        "loss_of_appetite",
+        "rapid_breathing"
+      ],
+      "definition": "A severe, often fatal bacterial disease of cattle and buffalo, common in the monsoon season.",
+      "causes": "The bacterium Pasteurella multocida.",
+      "transmission": "Ingestion or inhalation; stress and wet weather increase risk.",
+      "prevention": "Annual vaccination before the monsoon, good nutrition, reduce stress.",
+      "treatment_overview": "A veterinary emergency needing immediate treatment; early antibiotics by a vet can save the animal.",
+      "diet": "Supportive nutrition and clean water during recovery.",
+      "supportive_care": "Isolate, keep dry and warm, seek veterinary help immediately.",
+      "recovery_time": "Guarded; depends on how early it is treated.",
+      "vaccination": "Vaccinate annually before the rainy season.",
+      "vitals": {
+        "temp_c": [
+          40.0,
+          41.5
+        ],
+        "hr_bpm": [
+          90,
+          125
+        ]
+      }
+    },
+    {
+      "id": "bvd_enteritis",
+      "name": "Viral Diarrhea / Enteritis",
+      "animals": [
+        "cow",
+        "buffalo",
+        "goat",
+        "sheep"
+      ],
+      "risk_level": "medium",
+      "key_symptoms": [
+        "diarrhea",
+        "fever",
+        "dehydration",
+        "loss_of_appetite",
+        "weight_loss",
+        "reduced_rumination"
+      ],
+      "definition": "Intestinal infection causing persistent diarrhea, dehydration and weight loss.",
+      "causes": "Viral or bacterial gut infection.",
+      "transmission": "Contaminated feed, water and faecal-oral spread.",
+      "prevention": "Clean water and feed, good sanitation, vaccination where available.",
+      "treatment_overview": "Rehydration and veterinary care. Consult a vet, especially if diarrhea persists.",
+      "diet": "Electrolytes and clean water, easily digestible feed, avoid sudden feed changes.",
+      "supportive_care": "Provide oral electrolytes/hydration, isolate, keep clean and dry.",
+      "recovery_time": "Days to a couple of weeks with good hydration.",
+      "vaccination": "Available for some causes.",
+      "vitals": {
+        "temp_c": [
+          39.3,
+          40.8
+        ],
+        "hr_bpm": [
+          80,
+          110
+        ]
+      }
+    },
+    {
+      "id": "ketosis",
+      "name": "Ketosis",
+      "animals": [
+        "cow",
+        "buffalo"
+      ],
+      "risk_level": "medium",
+      "key_symptoms": [
+        "milk_reduction",
+        "loss_of_appetite",
+        "weight_loss",
+        "reduced_rumination",
+        "weakness"
+      ],
+      "definition": "A metabolic disorder in early-lactation dairy animals from negative energy balance.",
+      "causes": "Energy demand of milk production exceeding feed intake after calving.",
+      "transmission": "Not infectious; metabolic.",
+      "prevention": "Good transition-period nutrition, adequate energy in early lactation, avoid over-fat cows at calving.",
+      "treatment_overview": "Veterinary management of energy balance. Consult a vet for treatment.",
+      "diet": "Energy-dense, palatable ration; ensure the animal keeps eating; clean water.",
+      "supportive_care": "Encourage feed intake, reduce stress, monitor closely.",
+      "recovery_time": "Days with proper management.",
+      "vaccination": "None; nutrition-based prevention.",
+      "vitals": {
+        "temp_c": [
+          38.0,
+          39.2
+        ],
+        "hr_bpm": [
+          60,
+          85
+        ]
+      }
+    },
+    {
+      "id": "milk_fever",
+      "name": "Milk Fever (Hypocalcemia)",
+      "animals": [
+        "cow",
+        "buffalo"
+      ],
+      "risk_level": "high",
+      "key_symptoms": [
+        "weakness",
+        "reduced_rumination",
+        "loss_of_appetite",
+        "nervous_signs",
+        "lameness"
+      ],
+      "definition": "A sudden drop in blood calcium around calving, causing weakness and inability to stand.",
+      "causes": "Calcium demand of milk production at calving outpacing calcium mobilisation.",
+      "transmission": "Not infectious; metabolic.",
+      "prevention": "Correct calcium/phosphorus balance in the transition diet, veterinary guidance around calving.",
+      "treatment_overview": "A veterinary emergency; prompt treatment is usually very effective. Contact a vet immediately.",
+      "diet": "Balanced minerals; follow veterinary advice on calcium around calving.",
+      "supportive_care": "Keep the animal comfortable and upright, seek veterinary help without delay.",
+      "recovery_time": "Often rapid once treated.",
+      "vaccination": "None; nutritional management.",
+      "vitals": {
+        "temp_c": [
+          36.5,
+          38.4
+        ],
+        "hr_bpm": [
+          80,
+          110
+        ]
+      }
+    },
+    {
+      "id": "parasites",
+      "name": "Gastrointestinal Parasites (Worms)",
+      "animals": [
+        "cow",
+        "buffalo",
+        "goat",
+        "sheep"
+      ],
+      "risk_level": "low",
+      "key_symptoms": [
+        "weight_loss",
+        "diarrhea",
+        "loss_of_appetite",
+        "dehydration",
+        "weakness"
+      ],
+      "definition": "Internal worm burden causing gradual weight loss, poor coat and sometimes diarrhea.",
+      "causes": "Roundworms and other internal parasites picked up from pasture.",
+      "transmission": "Ingestion of larvae from contaminated pasture.",
+      "prevention": "Strategic deworming, pasture rotation, avoid overgrazing.",
+      "treatment_overview": "Deworming under veterinary guidance and improved nutrition. Consult a vet for the right product and timing.",
+      "diet": "Good-quality fodder, protein and mineral supplementation to restore condition.",
+      "supportive_care": "Improve nutrition, keep pasture clean, monitor body condition.",
+      "recovery_time": "Weeks, as body condition rebuilds.",
+      "vaccination": "Generally none; deworming programmes are used.",
+      "vitals": {
+        "temp_c": [
+          38.0,
+          39.3
+        ],
+        "hr_bpm": [
+          60,
+          90
+        ]
+      }
+    },
+    {
+      "id": "bovine_tb",
+      "name": "Bovine Tuberculosis",
+      "animals": [
+        "cow",
+        "buffalo"
+      ],
+      "risk_level": "high",
+      "key_symptoms": [
+        "chronic_cough",
+        "weight_loss",
+        "wasting",
+        "weakness",
+        "swollen_lymph_nodes",
+        "difficulty_breathing"
+      ],
+      "vitals": {
+        "temp_c": [
+          38.5,
+          40.0
+        ],
+        "hr_bpm": [
+          70,
+          95
+        ]
+      },
+      "definition": "A slow, chronic bacterial disease of cattle causing progressive wasting and a persistent cough.",
+      "causes": "The bacterium Mycobacterium bovis.",
+      "transmission": "Inhaled droplets between animals in close contact; also via contaminated feed and unpasteurised milk.",
+      "prevention": "Regular testing and removal of reactors, quarantine of new animals, good ventilation and hygiene.",
+      "treatment_overview": "Treatment is generally not attempted in livestock; control is by testing and removal under veterinary and government programmes. It is a notifiable zoonotic disease in many regions — contact a veterinarian.",
+      "diet": "Good-quality nutrition to maintain condition while under veterinary supervision.",
+      "supportive_care": "Isolate suspected animals and contact a veterinarian immediately; avoid consuming raw milk.",
+      "recovery_time": "Chronic; animals typically do not recover without intervention.",
+      "vaccination": "Not routinely used in cattle in most regions; control relies on testing."
+    },
+    {
+      "id": "bluetongue",
+      "name": "Bluetongue",
+      "animals": [
+        "sheep",
+        "goat",
+        "cow"
+      ],
+      "risk_level": "high",
+      "key_symptoms": [
+        "fever",
+        "mouth_ulcers",
+        "salivation",
+        "nasal_discharge",
+        "lameness",
+        "loss_of_appetite",
+        "difficulty_breathing"
+      ],
+      "vitals": {
+        "temp_c": [
+          40.0,
+          41.5
+        ],
+        "hr_bpm": [
+          85,
+          115
+        ]
+      },
+      "definition": "An insect-borne viral disease, most severe in sheep, causing fever, mouth ulcers and lameness.",
+      "causes": "Bluetongue virus (an Orbivirus).",
+      "transmission": "Bites from Culicoides midges; not spread by direct contact.",
+      "prevention": "Vaccination where available, midge control, housing animals during peak midge activity.",
+      "treatment_overview": "No specific antiviral treatment; supportive care and veterinary management of secondary infection.",
+      "diet": "Soft palatable feed and clean water while mouth lesions heal.",
+      "supportive_care": "Shade, rest, soft bedding, insect control, wound care as advised by a vet.",
+      "recovery_time": "Several weeks in animals that recover; can be fatal in sheep.",
+      "vaccination": "Serotype-specific vaccines are available in some regions."
+    },
+    {
+      "id": "johnes",
+      "name": "Johne's Disease (Paratuberculosis)",
+      "animals": [
+        "cow",
+        "buffalo",
+        "goat",
+        "sheep"
+      ],
+      "risk_level": "medium",
+      "key_symptoms": [
+        "diarrhea",
+        "weight_loss",
+        "wasting",
+        "milk_reduction",
+        "weakness"
+      ],
+      "vitals": {
+        "temp_c": [
+          38.0,
+          39.3
+        ],
+        "hr_bpm": [
+          65,
+          90
+        ]
+      },
+      "definition": "A chronic intestinal bacterial infection causing persistent diarrhoea and steady weight loss despite a normal appetite.",
+      "causes": "Mycobacterium avium subspecies paratuberculosis.",
+      "transmission": "Faecal-oral, usually infected as calves via contaminated milk, water or bedding.",
+      "prevention": "Clean calving areas, feed calves clean colostrum/milk, cull known infected animals, test herds.",
+      "treatment_overview": "There is no effective cure; management focuses on control and culling. Consult a veterinarian for herd-level planning.",
+      "diet": "High-quality, easily digestible feed to slow condition loss.",
+      "supportive_care": "Isolate affected animals from young stock, maintain hygiene, seek veterinary advice.",
+      "recovery_time": "Chronic and progressive; recovery is not expected.",
+      "vaccination": "Available in some regions but restricted."
+    },
+    {
+      "id": "cae",
+      "name": "Caprine Arthritis Encephalitis (CAE)",
+      "animals": [
+        "goat"
+      ],
+      "risk_level": "medium",
+      "key_symptoms": [
+        "joint_swelling",
+        "lameness",
+        "weight_loss",
+        "milk_reduction",
+        "incoordination",
+        "chronic_cough"
+      ],
+      "vitals": {
+        "temp_c": [
+          38.5,
+          39.8
+        ],
+        "hr_bpm": [
+          70,
+          95
+        ]
+      },
+      "definition": "A chronic viral disease of goats causing swollen joints and lameness in adults, and nervous signs in kids.",
+      "causes": "Caprine arthritis encephalitis virus (a lentivirus).",
+      "transmission": "Mainly through infected colostrum and milk to kids; also close contact.",
+      "prevention": "Feed kids heat-treated colostrum, test and separate infected animals, cull positives.",
+      "treatment_overview": "No cure; management is supportive and focused on comfort. A veterinarian can advise on pain management and herd control.",
+      "diet": "Easily reachable feed and water, good nutrition to maintain condition.",
+      "supportive_care": "Soft bedding, easy access to feed and water, minimise walking distance for lame goats.",
+      "recovery_time": "Chronic and lifelong.",
+      "vaccination": "None available; control is by management."
+    },
+    {
+      "id": "scrapie",
+      "name": "Scrapie",
+      "animals": [
+        "sheep",
+        "goat"
+      ],
+      "risk_level": "high",
+      "key_symptoms": [
+        "wool_loss",
+        "incoordination",
+        "nervous_signs",
+        "weight_loss",
+        "weakness",
+        "wasting"
+      ],
+      "vitals": {
+        "temp_c": [
+          38.3,
+          39.5
+        ],
+        "hr_bpm": [
+          70,
+          95
+        ]
+      },
+      "definition": "A fatal degenerative disease of the nervous system in sheep and goats, causing intense rubbing, incoordination and wasting.",
+      "causes": "An abnormal prion protein.",
+      "transmission": "Mainly from ewe to lamb around birth and via a contaminated environment.",
+      "prevention": "Source replacement stock from scrapie-free flocks, breed for resistant genotypes, strict lambing hygiene.",
+      "treatment_overview": "There is no treatment or cure. It is a notifiable disease in many regions — report suspected cases to a veterinarian.",
+      "diet": "Supportive nutrition only.",
+      "supportive_care": "Isolate and contact a veterinarian; the condition is always fatal.",
+      "recovery_time": "None; invariably fatal.",
+      "vaccination": "None available."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "classes": [
+    "healthy",
+    "fmd",
+    "lsd"
+  ],
+  "metrics": {
+    "test_accuracy": 0.9141631126403809
+  }
+}
